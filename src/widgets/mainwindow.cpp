@@ -15,7 +15,7 @@ MainWindow::MainWindow(QString defaultImagePath, QWidget *parent, Qt::WindowFlag
     layout(this)
 {
     setWindowTitle(QString(APP_TITLE) + " (v" + QString(APP_VERSION) + ")");
-    setMinimumSize(QSize(740, 740));
+    setMinimumSize(QSize(800, 800));
 
     layout.fileExtensionMenu()->addItems(fileFormats);
     layout.errorCorrectionMenu()->addItems(errorCorrectionLevels);

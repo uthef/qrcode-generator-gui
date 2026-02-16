@@ -308,11 +308,12 @@ void MainWindowLayout::addLogoOptionsWidgets()
     mLogoSizeSlider.setMaximumWidth(mImageSizeSlider.maximumWidth());
     mLogoSizeSlider.setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Fixed);
     mChangeLogoButton.setMaximumWidth(150);
-    mChangeLogoButton.setSizePolicy(QSizePolicy::Minimum, QSizePolicy::Minimum);
+    mChangeLogoButton.setSizePolicy(QSizePolicy::Minimum, QSizePolicy::Fixed);
+    mLogoPathField.setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Fixed);
+    mLogoPathField.setReadOnly(true);
     mLogoSizeValueLabel.setText("0");
     mLogoSizeValueLabel.setMaximumWidth(50);
     mLogoSizeValueLabel.setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Fixed);
-    mLogoPathField.setReadOnly(true);
 
     mLogoLayout.addWidget(&mLogoSizeLabel);
 
