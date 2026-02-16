@@ -1,0 +1,10 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+  <qresource prefix="/">
+    <file>images/qr-icon.png</file>
+    <file>images/palette.svg</file>
+    <file>images/ok.svg</file>
+    <file>images/error.svg</file>
+    <file>images/warning.svg</file>
+  </qresource>
+</RCC>
